@@ -43,10 +43,10 @@ if (numeroDeGaloesPrecisos == 5):
 
 
 #se for 14.4 litros ou menos usar galões:
-if ((litrosTintaNecessarios < (quantidadeLata - quantidadeGalao))): print(f'numero de galoes precisos: {numeroDeGaloesPrecisos}')
+if ((litrosTintaNecessarios < (quantidadeLata - quantidadeGalao))): print(f'Vai precisar de {numeroDeGaloesPrecisos} galão(ões).')
 
 # se for entre 14.4 e 18 litros usar uma lata:
-if (((litrosTintaNecessarios / quantidadeLata) < 1)): print(f'Vai precisar uma lata e o custo vai ser de {custoPorLata} €.')
+if (((litrosTintaNecessarios / quantidadeLata) <= 1) and numeroDeLatasPrecisas > 0): print(f'Vai precisar uma lata e o custo vai ser de {custoPorLata} €.')
 
 # se for mais do que 18 litros usar uma mistura de latas e galões:
 if ((litrosTintaNecessarios) > (quantidadeLata)): print(f'Vai precisar {numeroDeLatasPrecisas} lata(s) e {numeroDeGaloesPrecisos} galão(ões) e o preço vai ser {(numeroDeLatasPrecisas*custoPorLata)+(numeroDeGaloesPrecisos*custoPorGaloes)} €.')

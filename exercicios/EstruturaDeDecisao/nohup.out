@@ -1,0 +1,17 @@
+[cli][info] Found matching plugin twitch for URL twitch.tv/ben_
+[cli][info] Available streams: audio_only, 160p (worst), 360p, 480p, 720p60, 1080p60 (best)
+[cli][info] Opening stream: 1080p60 (hls)
+[cli][info] Starting player: /usr/bin/vlc
+[plugins.twitch][info] Will skip ad segments
+[stream.hls][info] Filtering out segments and pausing stream output
+[stream.hls][warning] Encountered a stream discontinuity. This is unsupported and will result in incoherent output data.
+[stream.hls][info] Resuming stream output
+[stream.hls][info] Filtering out segments and pausing stream output
+[stream.hls][warning] Encountered a stream discontinuity. This is unsupported and will result in incoherent output data.
+[stream.hls][info] Resuming stream output
+[stream.hls][info] Filtering out segments and pausing stream output
+[stream.hls][warning] Encountered a stream discontinuity. This is unsupported and will result in incoherent output data.
+[stream.hls][info] Resuming stream output
+[cli][info] Player closed
+[cli][info] Stream ended
+[cli][info] Closing currently open stream...
