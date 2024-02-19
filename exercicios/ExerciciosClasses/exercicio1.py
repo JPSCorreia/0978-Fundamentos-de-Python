@@ -5,6 +5,7 @@
 
 
 class Bola:
+    
     def __init__(self, cor, circunferencia, material):
         self.cor = cor
         self.circunferencia = circunferencia
@@ -22,7 +23,12 @@ class Bola:
         )
 
 bola1 = Bola('Vermelha', 50, 'Plastico')
-bola2 = Bola('Verde', 100, 'Vidro')
+bola1.trocaCor('Azul')
+bola1.cor = 'Verde'
+print(bola1.circunferencia)
+# bola1.mostraCor()
 
-bola1.mostraCor()
-bola2.describe()
+# bola2 = Bola('Verde', 100, 'Vidro')
+
+
+# bola2.describe()
